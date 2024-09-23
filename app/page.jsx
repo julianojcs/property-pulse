@@ -1,10 +1,16 @@
+import Hero from '@/components/Hero'
+import InfoBoxes from '@/components/InfoBoxes'
+
 export const metadata = {
-  title: 'PropertyPulse Home | Find The Perfect Rental', 
+  title: 'PropertyPulse Home | Find The Perfect Rental'
 }
 
 const HomePage = () => {
   return (
-    <div>HomePage</div>
+    <>
+      <Hero />
+      <InfoBoxes />
+    </>
   )
 }
 export default HomePage
